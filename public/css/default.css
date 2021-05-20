@@ -1,0 +1,576 @@
+body
+{
+	margin:0;
+	padding:5px 0 0px 0;
+	background-color: #ffffff;
+}
+
+td, th
+{
+  font-family:"Times New Roman", Times, serif;
+	font-size: 15px;
+	line-height: 22px;
+	color:#EAEEE9;
+	text-align:left;
+}
+
+a
+{
+	color: #99C194;
+	text-decoration:none;
+}
+
+a:hover
+{
+	color:#FEF971;
+	text-decoration:underline;
+}
+
+.main_table
+{
+	width:750px;
+	height:760px;
+	border:none;
+	padding:0px 0px 0px 0;
+	margin:0;
+}
+
+.header_table
+{
+	background-color:#000000;
+	border:none;
+	padding:0;
+	margin:0;
+	height:10px;
+}
+
+.left_table
+{
+	background-color:#000000;
+	border:none;
+	padding:0;
+	margin:0;	
+}
+
+.right_table
+{
+	background-color:#000000;
+	border:none;
+	padding:0;
+	margin:0;	
+}
+
+/*********ABOUT*****************/
+.about_content_table
+{
+	width:100%;
+	height:100%;
+	background-color:#748B72;
+	border:none;
+	padding:0;
+	margin:0;	
+}
+
+.about_menu_table
+{
+	height:100%;
+	background-color:none;
+	border:none;
+	padding:0;
+	margin:0;	
+}
+
+.about_text
+{
+	padding:20px 0px 0 20px;
+	line-height:20px;
+}
+
+.about_text br
+{
+	padding-top:20px;
+}
+
+.about_address_text
+{
+	padding:0 0 0 175px;
+	margin:0;
+}
+
+.about_address_text a
+{
+	font-size:12px;
+} 
+/********ALBUM*************/
+.album_content_table
+{
+	width:100%;
+	height:100%;
+	background-color:#748B72;
+	border:none;
+	margin:0;	
+}
+
+.album_section_table
+{
+	margin:0;
+	padding:0;
+}
+
+.album_text
+{
+	padding:0 7px 0 44px;
+	vertical-align:bottom;
+}
+
+.album_menu_title
+{
+	color:#99C194;
+	font-weight:bold;
+	padding:0px 10px 0 0;
+}
+
+.album_list_table
+{
+	width:206px;
+	height:255px;
+	margin:0;
+	padding:0;
+}
+
+.album_menu_item
+{
+	padding:0px 0 0 0;
+}
+
+.album_menu_link, album_menu_link a
+{
+	color:#7CA072;
+	padding:0;
+	margin:0;
+	font-size:12px;
+	font-stretch:expanded;
+}
+
+.album_menu_icon
+{
+	border:none;
+	margin:5px 4px 0 4px;
+}
+
+
+.album_menu_dot
+{
+	border:none;
+	margin:0 7px 0 3px;
+}
+
+.album_content_link, album_content_link a
+{
+	color:#C5EB91;
+	padding:2px 0px 0 0;
+	font-size:12px;
+	line-height:18px;
+}
+
+.album_content_link_active, album_content_link_active a
+{
+	color:#FCFFE2;
+	padding:0px 0px 0 0;
+	font-size:12px;
+	line-height:18px;
+}
+
+.album_sequence_link, album_sequence_link a
+{
+	color:#C0BAA4;
+	padding:2px 0px 0 0;
+	font-size:12px;
+	line-height:18px;
+}
+
+.album_note_link, album_note_link a
+{
+	color:#E8DC56;
+	padding:2px 0px 0 0;
+	font-size:12px;
+	line-height:18px;
+}
+
+.album_artist_link, album_artist_link a
+{
+	color:#ECAF56;
+	padding:2px 0px 0 0;
+	font-size:12px;
+	line-height:18px;
+}
+
+.album_cover_table
+{
+	padding: 0 0px 0 0;
+	margin:15px 0px 0px 0;
+	border:none;
+}
+
+.album_cover_img img
+{
+	border:1px solid #CDCB8D ;
+	vertical-align:top;
+	height:138px;
+	padding:0;
+	margin:0;
+}
+
+.album_song_table
+{
+	padding:0;
+	margin:10px 0px 0 0;
+	border:none
+}
+
+.album_note
+{
+	color:#C0E0CD;
+	padding:0px 0 0px 0;
+	font-size:11px;
+}
+
+.album_seq
+{
+	color:#D1F995;
+	font-size: 24px;
+	line-height:30px;
+	padding:20px 0 0 0;
+	text-decoration:underline;
+}
+
+.album_title
+{
+	color:#ffffff;
+	font-size:24px;
+	line-height:30px;
+}
+
+.song_name
+{
+	color:#FEF971;
+	font-size:20px;
+	line-height:25px;
+	padding:10px 0 5px 0;
+}
+
+.song_audio
+{
+	color:#C0E0CD;
+	font-style:italic;
+	padding:7px 0 0px 0;
+}
+
+
+.song_note
+{
+	color:#C0E0CD;
+	font-style:italic;
+	padding:2px 0 0px 0;
+}
+
+.song_lyric
+{
+	color:#E8CFAE;
+	font-style:italic;
+	text-decoration:underline;
+}
+
+.song_image img
+{
+	border:1px solid #B6B59C;
+	height:172px;
+}
+
+.song_sound
+{
+	border:none;
+	margin:2px 0px 0 3px;
+	vertical-align:middle;
+}
+
+.lyric_content
+{
+	background-color:#748B72;
+	padding:20px 10px 10px 20px;
+}
+
+.album_text_more, a.album_text_more
+{
+	color:#F3F371;
+}
+
+.album_song_list_page, a.album_song_list_page
+{
+	color:#ffffff;
+	padding:3px 0 0 80px;
+	margin:0;
+}
+
+.album_list_page, a.album_list_page
+{
+	color:#ffffff;
+	padding:3px 5px 0 0px;
+	margin:0;
+	font-size:11px;
+}
+
+/***********Center*******************/
+.center_table
+{
+	width:590px;
+	height:100%;
+	padding:1px 0 0 2px;
+	margin:0px 0 0 0;
+	azimuth:center;
+}
+
+.content_table
+{
+	width:100%;
+	height:100%;
+	border:none;
+	padding: 5px 10px 0 10px;
+	margin:0;
+	background-color:none;
+}
+
+/*************CONTACT*************/
+
+.contact_content_link, contact_content_link a
+{
+	color:#C5EB91;
+	padding:0px 0px 0 0;
+	font-size:13px;
+	line-height:18px;
+	padding:20px 0 0 0;
+}
+
+.contact_album_title
+{
+	color:#D1F996;
+	font-weight:bold;
+}
+
+.contact_form_text
+{
+	color:#DABF90;
+	font-family:Verdana;
+	font-size:11px;
+	font-style:italic;
+	font-weight:bold;
+}
+
+.contact_form_text_bold
+{
+	color:#E5A642;
+	font-family:Verdana;
+	font-size:11px;
+	font-style:italic;	
+	font-weight:bold;
+	text-decoration:underline;
+	margin:0;
+	padding:0;
+}
+
+.contact_section_table
+{
+	padding:0;
+	margin:0;
+}
+/*******************FORM***************/
+.error, .required
+{
+	color: #F5E72F;
+	font-size:11px;
+}
+
+.textbox, .combo
+{
+	font-family: Arial;
+	font-size: 11px;
+	border-width: 1;
+	border-color: #000000;
+	background-color:#C9C8C6;
+	border-style: solid;
+	padding: 1px 1px 1px 1px;
+	height: 19px;
+}
+
+.textarea
+{
+	font-family: Arial;
+	font-size: 11px;
+	border-width: 1;
+	border-color: #000000;
+	background-color:#C9C8C6;
+	border-style: solid;
+	padding: 1px 1px 1px 1px;
+}
+
+
+/*************************/
+.photo_dot
+{
+	border:none;
+	margin:0 0 0 7px;
+}
+
+.photo_img img
+{
+	border:1px solid #CDCB8D ;
+	vertical-align:top;
+	azimuth:right;
+	width:123px;
+	height:95px;
+	padding:0;
+	margin:0;
+}
+
+.photo_category_table
+{
+	width:171px;
+	height:100%;
+	padding:0;
+	margin:0;
+	background-color:none;
+}
+
+.photo_category_td
+{
+	padding: 0px 0 0 0;
+	margin:0;
+	border:none;
+}
+
+.photo_category_content_table
+{
+	padding: 5px 0 0 0;
+	margin:0;
+	border:none;
+}
+
+.photo_content_link, photo_content_link a
+{
+	color:#B6D98B;
+	padding:7px 0px 0 0;
+	font-size:12px;
+	line-height:18px;
+}
+
+.photo_content_link_active, photo_content_link_active a
+{
+	color:#CDD6C4;
+	padding:0px 0px 0 0;
+	font-size:12px;
+	line-height:18px;
+	text-decoration:underline;
+}
+
+.photo_author_table
+{
+	padding:5px 0 0px 0;
+	margin:0;
+	border:none;
+	width:318px;
+}
+
+.category_name
+{
+	font-family:Verdana;
+	font-size:20px;
+	line-height:25px;
+	color:#D1F995;
+	padding:0 0 0 0px;
+}
+
+.author_name
+{
+	color:#FEF971;
+	font-size:18px;
+	line-height:20px;
+}
+
+.photo_name, a.photo_name
+{
+	color:#D3D9A2;
+	padding:3px 0 0 0;
+	font-size:11px;
+} 
+
+.photo_list_page, a.photo_list_page
+{
+	color:#ffffff;
+	padding:3px 0 0 1px;
+	margin:0;
+	font-size:10px;
+}
+
+.photo_list_page_note
+{
+	color:#FEFCB8;
+	padding:3px 0 0 1px;
+	margin:0;
+	font-size:10px;
+}
+
+.view_table
+{
+	background-color:#F3FEF2;
+}
+
+.view_table td
+{
+	color:#F4831D;
+}
+
+.view_large_album img
+{
+	/*width:500px;*/
+	width:780px;
+}
+
+.view_large_photo img
+{
+	width:780px;
+}
+
+a.view_large_image_close
+{
+	font-size:11px;
+}
+
+a.view_large_image_close:hover
+{
+	color:#FF9933;
+	font-size:11px;
+}
+
+.visitor
+{
+	color:#A0BE73;
+	font-size:9px;
+	font-family:Verdana;
+	line-height:12px;
+	height:14px;
+}
+
+ul.pagination {
+	padding-right: 80px;
+}
+
+ul.pagination li
+{
+	display: inline-block;
+	margin-left: 50px;
+}
+
+.audio_song {
+	width: 220px;
+	height: 25px;
+}

@@ -1,0 +1,490 @@
+body, td, th
+{
+	font-family: Arial;
+	font-size: 12px;
+	line-height: 16px;
+	color: #000000;
+}
+
+a
+{
+	color: #0000FF;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color:#FF0023;
+}
+
+.error, .required
+{
+	font-size: 12px;
+	line-height: 17px;
+	color: #FF0000;
+}
+
+.success
+{
+	font-size: 12px;
+	font-weight:bold;
+	line-height: 17px;
+	color:#FF0000;
+}
+
+.caption
+{
+	font-family:Arial;
+	font-size: 16px;
+	line-height: 20px;
+	color:#FF6205;
+	font-weight: 600;
+	padding-left: 20px;
+	padding-bottom: 0px;
+	padding-top:7px;
+}
+
+.caption_sub
+{
+	font-family:Arial;
+	font-size: 12px;
+	line-height: 17px;
+	color:#9E0C0F;
+	font-weight: 600;
+	background-color:#FFFFFF;
+	padding-bottom: 10px;
+	padding-top:10px;
+}
+
+.table_info
+{
+	background-color:#FFFFFF;
+	margin-top:15px;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+.table_list
+{
+	background-color:#FFFFFF;
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:5px;
+	border-width:1;
+	border-collapse:collapse;
+	border-color:#999999;
+}
+
+.table_list_nopage
+{
+	background-color:#FFFFFF;
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:20px;
+	border-width:1;
+	border-collapse:collapse;
+	border-color:#999999;
+}
+
+.table_list_select
+{
+	margin-top:3px;
+	background-color:#FFFFFF;
+	border-width:1;
+	border-collapse:collapse;
+	border-color:#999999;
+}
+
+.table_page_begin
+{
+	background-color:#FFFFFF;
+	margin-top:10px;
+	margin-left:20px;
+	margin-right:10px;
+	border-width:0;
+}
+
+.table_page_end
+{
+	background-color:#FFFFFF;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:20px;
+	margin-right:10px;
+	border-width:0;
+}
+
+.row_title
+{
+	color:#325A92;
+	font-weight:bold;
+}
+
+.footer
+{
+	font-family:Arial;
+	font-size: 11px;
+	line-height: 14px;
+	color: #000000;
+	text-align:center;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.header
+{
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+	word-spacing:2px;
+	line-height:16px;
+	color:#9E0C0F;
+	padding-right:20px;
+	padding-top:1px;
+}
+
+.header_sub
+{
+	font-family:Arial;
+	font-size:11px;
+	line-height:15px;
+	color:#9E0C0F;
+	padding-top:13px;
+	padding-right:20px;
+}
+
+.textbox, .combo
+{
+	font-family: Verdana;
+	font-size: 11px;
+	border-width: 1;
+	border-color: #7F9DB9;
+	border-style: solid;
+	padding: 1px 1px 1px 1px;
+	height: 19px;
+}
+
+.textbox_invisible
+{
+	color:#ffffff;
+	border-width: 0;
+	width:1px;
+	vertical-align:middle;
+	text-align:center;
+}
+
+.textbox_print
+{
+	font-family: Courier New;
+	font-size: 20px;
+	font-weight:bold;
+	color:#000000;
+	border-width: 1;
+	border-color: #7F9DB9;
+	border-style: solid;
+	padding: 1px 1px 1px 1px;
+	height: 27px;
+}
+
+.textbox_customize
+{
+	font-family: Verdana;
+	font-size: 11px;
+	border-width: 1;
+	border-color: #7F9DB9;
+	border-style: solid;
+	padding: 1px 1px 1px 1px;
+	height: 20px;
+	width:35px;
+}
+
+.textarea
+{
+	font-family: Verdana;
+	font-size: 11px;
+	border-width: 1;
+	border-color: #7F9DB9;
+	border-style: solid;
+	padding: 1px 1px 1px 1px;
+}
+
+.page
+{
+	font-family: Verdana;
+	font-size: 11px;
+	text-align:right
+}
+
+a.page,a.page:visited
+{
+	color: #000099;
+}
+
+a.page:hover
+{
+	color: #FF0023;
+}
+
+.text_shadow
+{
+	color:#9E0C0F;
+}
+
+.timer
+{
+  font-family: Tahoma;
+	font-size: 11px;
+	font-weight:600;
+	line-height: 15px;
+	color: #FFFFFF;
+	text-align: right;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:8px;
+}
+
+.column
+{
+	padding-left:20px;
+}
+
+.image
+{
+	padding-left: 5px;
+}
+
+.list_title, a.list_title, a.list_title:visited
+{
+	color: #325A92;
+	font-weight:bold;
+}
+
+a.list_title:hover
+{
+	color: #FF0023;
+}
+
+.dealer_info_row
+{
+	background-color:#F2F2F2;
+}
+
+.dealer_info_height;
+{
+	line-height:1px;
+}
+
+.menu_line
+{
+	/*background-color:#325A92;*/
+	height:20px;
+	vertical-align:text-bottom 
+}
+
+.menu, a.menu
+{
+	color:#FFFFFF;
+	font-size:13px;
+	font-weight:bold;
+	padding-right:20px;
+	text-align:right
+}
+
+.menu_start, a.menu_start
+{
+	color:#FFFFFF;
+	font-size:13px;
+	font-weight:bold;
+	padding-left:20px;
+	text-align:right
+}
+
+.menu_end, a.menu_end
+{
+	color:#FFFFFF;
+	font-size:13px;
+	font-weight:bold;
+	padding-right:20px;
+	text-align:right
+}
+
+.search
+{
+	color:#325A92;
+	font-weight:bold;
+	font-size:13px;
+	padding-left:20px;
+	padding-top:30px;
+}
+
+.link, a.link
+{
+	font-size:13px;
+	font-weight:bold;
+}
+
+.note
+{
+	font-family: Arial;
+	font-size: 11px;
+	font-style:italic;
+	line-height: 13px;
+	letter-spacing:1px;
+}
+
+.note_vi
+{
+	font-size: 12px;
+	font-style:italic;
+	line-height: 17px;
+	color:#E17F29;
+	padding-bottom:5px;
+}
+
+.note_nodata
+{
+	font-size: 12px;
+	font-style:italic;
+	line-height: 17px;
+	color:#E17F29;
+	padding-top:10px;
+	padding-bottom:5px;
+	padding-left:20px;
+}
+
+.note_question
+{
+	font-size: 12px;
+	font-style:italic;
+	line-height: 17px;
+	padding-top:10px;
+	padding-bottom:5px;
+	padding-left:20px;
+}
+
+.close, a.close
+{
+	margin-right:20px;
+}
+
+.leftmenu_title
+{
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+	/*color:#FFFF99;*/
+	padding-left:10px;
+}
+
+.leftmenu_item, a.leftmenu_item
+{
+	font-family:Arial;
+	font-size:13px;
+	margin-left:10px;
+	margin-right:5px;
+}
+
+a.leftmenu_item:hover
+{
+	color:#FF6205;
+}
+
+.leftmenu_item_active, a.leftmenu_item_active
+{
+	color:#FF0000;
+	font-family:Arial;
+	font-size:13px;
+	margin-left:10px;
+	margin-right:5px;
+}
+
+.leftmenu_fade, a.leftmenu_fade
+{
+	color:#666666;
+	font-family:Arial;
+	font-size:13px;
+	margin-left:10px;
+	margin-right:5px;
+}
+
+.leftmenu_image_space
+{
+	border:0;
+	width:1px;
+	height:5px;
+}
+
+.table_content
+{
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #CCCCCC;
+	
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCCCCC;	
+	
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;	
+	
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;	
+}
+
+.table_main
+{
+	width:100%;
+	background-color:#FFFFFF;
+	border-collapse:collapse;
+	border: 0 solid #000000;
+	height:100%;
+}
+
+.logo
+{
+	border:0 solid #7F9DB9;
+}
+
+.table_list_link
+{
+	font-size:11px;
+}
+
+.logo_software
+{
+	border:0;
+}
+
+.logo_company
+{
+	border:0;
+	margin-left:20px;
+}
+
+.text_software
+{
+	font-family:Arial;
+	font-size:11px;
+	word-spacing:2px;
+	line-height:16px;
+	color:#9E0C0F;
+	padding-right:20px;
+}
+
+.text_company
+{
+	font-family:Arial;
+	font-size:11px;
+	word-spacing:2px;
+	line-height:16px;
+	color:#9E0C0F;
+	padding-left:20px;
+}
+
+.item_img img
+{
+	width: 80px;
+	border: none;
+}

@@ -1,0 +1,45 @@
+body
+{
+	margin:0;
+	padding:5px 0 0px 0;
+	background-color: #ffffff;
+	border:none;
+}
+
+.main_table
+{
+	width:677px;
+	height:100%;
+	border:none;
+	padding:0px 0px 0px 0;
+	margin:0;
+}
+
+.home_content
+{
+	width:100%;
+	height:100%;
+	border:none;
+	margin:0;
+	background-color:#ffffff;
+	border-color:#7B7A7A;
+}
+
+.intro_content
+{
+	width:100%;
+	height:100%;
+	border:none;
+	margin:0;
+	background-color:#000000;
+	border-color:none;
+}
+
+.intro_item, a.intro_item
+{
+	color:#DCD182;
+	padding:0;
+	margin:0;
+	font-family:Helvatica;
+	font-size:24px;
+}
